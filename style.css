@@ -1,0 +1,125 @@
+/* Hero section */
+.link-container{
+    gap: 20px;
+}
+.hero-container{
+    flex-direction: column;
+}
+.flex-container{
+    justify-content: space-between;
+}
+.link-container, .hero-container, .flex-container{
+    display: flex;
+}
+.pic-container{
+    flex: 1;
+}
+.dark-background{
+    background-color: #1F2937;/*same applies to footer*/
+    padding-bottom: 50px;
+}
+.hero_main_text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.logo_text{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.btn-container{
+    width: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+
+}
+.placeholder{
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 18px;
+}
+.hero_sec_text, .btn-container{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero_img{
+    height: 600px;
+}
+/* Second section */
+.sec_text{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.img_container{
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+}
+.img_button{
+    border: 5px solid #3882F6;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+/* Last section */
+.light_background{
+    background-color: #E5E7EB;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.quote_text{
+    text-align: center;
+    color: #1F2937;
+    font-size: 900;
+    font-size: 36px;
+}
+.author{
+    font-size: 20px;
+    font-weight: 900;
+}
+/* last */
+.last_main_btn{
+    background-color: #3882F6;
+    border-radius: 15px;
+    margin: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn-content{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.last_btn{
+    margin-top: 50px;
+    border: 3px solid #F9FAF8;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/* footer */
+.footer_text{
+    text-align: center;
+    padding: 25px;
+}
+.footer_div{
+    background-color: #1F2937;
+}
+.btn_hero, .footer_text{
+    color: #F9FAF8;
+    font-weight: 900;
+}
+/* Universal */
+.dark-background{
+    padding-left: 80px;
+    padding-right: 80px;
+}
